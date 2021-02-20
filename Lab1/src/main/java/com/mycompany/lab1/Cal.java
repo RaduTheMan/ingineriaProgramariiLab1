@@ -11,11 +11,12 @@ package com.mycompany.lab1;
  */
 public class Cal extends Terestru {
     
-    private String habitat;
-    private String name;
-    private int lifespan; //years
-    private double mass; //kg
-    private double height; //m
+    protected String habitat;
+    protected String name;
+    protected int lifespan; //years
+    protected double mass; //kg
+    protected double height; //m
+    protected double speed; // km/h
     public Cal() //cal default
     {
         habitat="ferma";
@@ -23,6 +24,7 @@ public class Cal extends Terestru {
         lifespan=25;
         mass=500;
         height=1.4;
+        speed=80;
     }
     
     @Override
@@ -75,6 +77,21 @@ public class Cal extends Terestru {
     public void setHeight(double height)
     {
         this.height = height;
+    }
+    
+    public double getSpeed()
+    {
+        return speed;
+    }
+    
+    public void setSpeed(double speed)
+    {
+        this.speed = speed;
+    }
+    
+    public void printAction()
+    {
+        System.out.println("Calul " + name + " alearga cu o viteza de: " + speed + " km/h");
     }
     
     @Override
