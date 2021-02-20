@@ -9,6 +9,10 @@ package com.mycompany.lab1;
  *
  * @author Vlad
  */
-public interface Animal {
-    public String getEnviroment();
+class Crap extends Acvatic{
+    String habitat="Lac";
+    @Override
+    public String getHabitat(){
+        return habitat;
+    }
 }

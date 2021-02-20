@@ -7,7 +7,7 @@ package com.mycompany.lab1;
 
 /**
  *
- * @author anghe
+ * @author Vlad
  */
 abstract class Acvatic implements Animal {
     private String enviroment="Acvatic";
@@ -17,4 +17,12 @@ abstract class Acvatic implements Animal {
     {
         return enviroment;
     }
+    abstract String getHabitat();
 }
+ /* To do: 
+    - getHabitat()
+    - 2 clase cu animale: 
+        - implementam habitat
+        - sa facem method overloading
+        - 
+*/
