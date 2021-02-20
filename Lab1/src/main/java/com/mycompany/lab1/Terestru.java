@@ -7,8 +7,16 @@ package com.mycompany.lab1;
 
 /**
  *
- * @author anghe
+ * @author Radu
  */
-public interface Animal {
-    public String getEnviroment();
+abstract class Terestru implements Animal {
+    
+    private String enviroment="Terestru";
+    
+    @Override
+    public String getEnviroment()
+    {
+        return enviroment;
+    }
+    
 }
