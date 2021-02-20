@@ -11,4 +11,5 @@ package com.mycompany.lab1;
  */
 public interface Animal {
     public String getEnviroment();
+    public void printInfo();
 }
