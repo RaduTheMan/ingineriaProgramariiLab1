@@ -10,5 +10,5 @@ package com.mycompany.lab1;
  * @author anghe
  */
 public interface Animal {
-    public void getEnviroment();
+    public String getEnviroment();
 }
