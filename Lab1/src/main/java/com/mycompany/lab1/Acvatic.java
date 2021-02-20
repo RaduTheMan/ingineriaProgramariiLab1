@@ -9,6 +9,12 @@ package com.mycompany.lab1;
  *
  * @author anghe
  */
-public class Acvatic {
+abstract class Acvatic implements Animal {
+    private String enviroment="Acvatic";
     
+    @Override
+    public String getEnviroment()
+    {
+        return enviroment;
+    }
 }
