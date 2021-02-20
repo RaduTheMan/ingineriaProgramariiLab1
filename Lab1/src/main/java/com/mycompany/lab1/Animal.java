@@ -7,19 +7,8 @@ package com.mycompany.lab1;
 
 /**
  *
- * @author Radu
+ * @author anghe
  */
-abstract class Shape {
-    
-    private double area;
-    public Shape()
-    {
-        area=0;
-    }
-    public double getArea()
-    {
-        return area;
-    }
-    abstract void calculateArea();
-    
+public interface Animal {
+    public void getEnviroment();
 }
