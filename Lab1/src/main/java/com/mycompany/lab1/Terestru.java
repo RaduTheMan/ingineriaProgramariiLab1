@@ -18,5 +18,5 @@ abstract class Terestru implements Animal {
     {
         return enviroment;
     }
-    
+    abstract String getHabitat();
 }
