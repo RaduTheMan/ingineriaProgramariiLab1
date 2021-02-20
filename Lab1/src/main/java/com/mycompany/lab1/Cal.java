@@ -26,7 +26,15 @@ public class Cal extends Terestru {
         height=1.4;
         speed=80;
     }
-    
+    public Cal(String habitat, String name, int lifespan, double mass, double height, double speed)
+    {
+        this.habitat = habitat;
+        this.name = name;
+        this.lifespan = lifespan;
+        this.mass = mass;
+        this.height = height;
+        this.speed = speed;
+    }
     @Override
     public String getHabitat()
     {
@@ -92,15 +100,17 @@ public class Cal extends Terestru {
     public void printAction()
     {
         System.out.println("Calul " + name + " alearga cu o viteza de: " + speed + " km/h");
+        System.out.println("");
     }
     
     @Override
     public void printInfo()
     {
         System.out.println("Numele calului: " + name);
-        System.out.println("Durata estimata de viata: " + lifespan);
+        System.out.println("Durata estimata de viata: " + lifespan + " ani");
         System.out.println("Habitat: " + habitat);
         System.out.println("Masa: " + mass + " kg");
         System.out.println("Inaltime: " + height + " m");
+        System.out.println("");
     }
 }

@@ -13,7 +13,13 @@ public class Lab1 {
     
     public static void main(String args[])
     {
-        System.out.println("Hello world!!!!");
+        Cal myCal = new Iapa("munte", "Rocinante", 13, 480, 1.3, 54);
+        Cal myCal2 = new Cal();
+        myCal.printAction();
+        myCal2.printAction();
+        myCal.printInfo();
+        myCal2.printInfo();
+        
     }
     
 }
