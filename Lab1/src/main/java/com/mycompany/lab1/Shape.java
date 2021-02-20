@@ -9,11 +9,17 @@ package com.mycompany.lab1;
  *
  * @author Radu
  */
-public class Lab1 {
+abstract class Shape {
     
-    public static void main(String args[])
+    private double area;
+    public Shape()
     {
-        System.out.println("Hello world!!!!");
+        area=0;
     }
+    public double getArea()
+    {
+        return area;
+    }
+    abstract void calculateArea();
     
 }
