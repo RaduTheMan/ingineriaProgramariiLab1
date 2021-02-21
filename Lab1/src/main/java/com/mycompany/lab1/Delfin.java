@@ -21,4 +21,7 @@ class Delfin extends Acvatic {
     public void action(int viteza){
         System.out.println("Delfinul innoata cu o viteza de " + viteza + "km/h");
     }
+    public void printInfo() {
+        System.out.println("Here will be printed info!");
+    }
 }

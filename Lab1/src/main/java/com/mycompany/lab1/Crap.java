@@ -15,4 +15,7 @@ class Crap extends Acvatic{
     public String getHabitat(){
         return habitat;
     }
+    public void printInfo() {
+        System.out.println("Here will be printed info!");
+    }
 }
