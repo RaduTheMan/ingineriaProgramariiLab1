@@ -20,6 +20,20 @@ public class Lab1 {
         System.out.println(habitat);
         myDelfin.action();
         myDelfin.action(80);
+        Cal myCal = new Iapa("munte", "Rocinante", 13, 480, 1.3, 54);
+        Cal myCal2 = new Cal();
+        Cal myCal3 = new Cal("ferma", "Pegasus", 30, 530, 1.8, 90);
+        
+        myCal.printAction();
+        myCal2.printAction();
+        myCal.printInfo();
+        myCal2.printInfo();
+        
+        myCal2.setName("Babusca");
+        myCal2.printInfo();
+        
+        myCal3.printInfo();
+        
     }
     
 }
